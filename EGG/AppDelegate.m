@@ -7,6 +7,9 @@
 //
 
 #import "AppDelegate.h"
+#import "BaseTabBarController.h"
+#import "UserViewController.h"
+#import "HomeViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,7 +20,31 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    self.window.backgroundColor = [UIColor whiteColor];
+    [self.window makeKeyAndVisible];
+    
+    [self setRootView];
+    
     return YES;
+}
+
+- (void)setRootView {
+    
+    NSMutableArray *vcs = [[NSMutableArray alloc]init];
+    NSArray *iconNames = @[@"tab-ico-shouye-clicked@3x", @"tab-ico-wo-clicked@3x"];
+    NSArray *classNames = @[@"HomeViewController", @"UserViewController"];
+    for (int i = 0; i<iconNames.count; i++) {
+        UIViewController *vc = [[NSClassFromString(classNames[i]) alloc]init];
+        vc.tabBarItem.image = [UIImage imageNamed:iconNames[i]];
+        UINavigationController *nvc = [[UINavigationController alloc]initWithRootViewController:vc];
+        [vcs addObject:nvc];
+    }
+    
+    BaseTabBarController *tbc = [[BaseTabBarController alloc]init];
+    tbc.viewControllers = vcs;
+    self.window.rootViewController = tbc;
+
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application {

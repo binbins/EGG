@@ -7,14 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5157FACFB4D07166B807D35D /* libPods-EGG.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3355C1B850AB7BEDBF6AEF00 /* libPods-EGG.a */; };
 		90459CDB1D7F1CCA00FF08DB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459CDA1D7F1CCA00FF08DB /* main.m */; };
 		90459CDE1D7F1CCA00FF08DB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459CDD1D7F1CCA00FF08DB /* AppDelegate.m */; };
-		90459CE11D7F1CCA00FF08DB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459CE01D7F1CCA00FF08DB /* ViewController.m */; };
 		90459CE41D7F1CCA00FF08DB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90459CE21D7F1CCA00FF08DB /* Main.storyboard */; };
 		90459CE61D7F1CCA00FF08DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 90459CE51D7F1CCA00FF08DB /* Assets.xcassets */; };
 		90459CE91D7F1CCA00FF08DB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90459CE71D7F1CCA00FF08DB /* LaunchScreen.storyboard */; };
 		90459CF41D7F1CCA00FF08DB /* EGGTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459CF31D7F1CCA00FF08DB /* EGGTests.m */; };
 		90459CFF1D7F1CCA00FF08DB /* EGGUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459CFE1D7F1CCA00FF08DB /* EGGUITests.m */; };
+		90459D111D7F1EFF00FF08DB /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D101D7F1EFF00FF08DB /* icon.png */; };
+		90459D171D7F357700FF08DB /* UserViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459D151D7F357700FF08DB /* UserViewController.m */; };
+		90459D181D7F357700FF08DB /* UserViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90459D161D7F357700FF08DB /* UserViewController.xib */; };
+		90459D1C1D7F358700FF08DB /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459D1A1D7F358700FF08DB /* HomeViewController.m */; };
+		90459D1D1D7F358700FF08DB /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90459D1B1D7F358700FF08DB /* HomeViewController.xib */; };
+		90459D231D7F399400FF08DB /* BaseTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459D221D7F399400FF08DB /* BaseTabBarController.m */; };
+		90459D251D7F3E6300FF08DB /* tab-ico-shouye-nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D241D7F3E6300FF08DB /* tab-ico-shouye-nor@3x.png */; };
+		90459D271D7F3E6F00FF08DB /* tab-ico-wo-nor@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D261D7F3E6F00FF08DB /* tab-ico-wo-nor@3x.png */; };
+		90459D291D7F410C00FF08DB /* home_bottom_tab_arrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D281D7F410C00FF08DB /* home_bottom_tab_arrow@2x.png */; };
+		90459D2B1D7F416200FF08DB /* tab-ico-wo-clicked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D2A1D7F416200FF08DB /* tab-ico-wo-clicked@3x.png */; };
+		90459D2D1D7F416D00FF08DB /* tab-ico-shouye-clicked@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D2C1D7F416D00FF08DB /* tab-ico-shouye-clicked@3x.png */; };
+		90459D301D7F476900FF08DB /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459D2F1D7F476900FF08DB /* CollectionViewCell.m */; };
+		90459D321D7F49B900FF08DB /* holder.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D311D7F49B900FF08DB /* holder.png */; };
+		90459D371D7F58EB00FF08DB /* placeholder.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D341D7F58EB00FF08DB /* placeholder.png */; };
+		90459D381D7F58EB00FF08DB /* XRCarouselView.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459D361D7F58EB00FF08DB /* XRCarouselView.m */; };
+		90459D3B1D7F5F7500FF08DB /* BigPicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90459D3A1D7F5F7500FF08DB /* BigPicViewController.m */; };
+		90459D3E1D7F74DD00FF08DB /* wp_nav_back_white.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D3D1D7F74DD00FF08DB /* wp_nav_back_white.png */; };
+		90459D401D7F766C00FF08DB /* img_detail_share_up@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D3F1D7F766C00FF08DB /* img_detail_share_up@3x.png */; };
+		90459D461D7F7D4900FF08DB /* img_detail_look@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D451D7F7D4900FF08DB /* img_detail_look@2x.png */; };
+		90459D481D7F7DF900FF08DB /* img_list_aixin.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D471D7F7DF900FF08DB /* img_list_aixin.png */; };
+		90459D4A1D7F7E6000FF08DB /* img_detail_download@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90459D491D7F7E6000FF08DB /* img_detail_download@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +56,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3355C1B850AB7BEDBF6AEF00 /* libPods-EGG.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EGG.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		90459CD61D7F1CCA00FF08DB /* EGG.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EGG.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90459CDA1D7F1CCA00FF08DB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		90459CDC1D7F1CCA00FF08DB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		90459CDD1D7F1CCA00FF08DB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		90459CDF1D7F1CCA00FF08DB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		90459CE01D7F1CCA00FF08DB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		90459CE31D7F1CCA00FF08DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		90459CE51D7F1CCA00FF08DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		90459CE81D7F1CCA00FF08DB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +71,36 @@
 		90459CFA1D7F1CCA00FF08DB /* EGGUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EGGUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90459CFE1D7F1CCA00FF08DB /* EGGUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = EGGUITests.m; sourceTree = "<group>"; };
 		90459D001D7F1CCA00FF08DB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90459D101D7F1EFF00FF08DB /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
+		90459D141D7F357700FF08DB /* UserViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UserViewController.h; sourceTree = "<group>"; };
+		90459D151D7F357700FF08DB /* UserViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UserViewController.m; sourceTree = "<group>"; };
+		90459D161D7F357700FF08DB /* UserViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = UserViewController.xib; sourceTree = "<group>"; };
+		90459D191D7F358700FF08DB /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		90459D1A1D7F358700FF08DB /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		90459D1B1D7F358700FF08DB /* HomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		90459D1F1D7F35CF00FF08DB /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		90459D211D7F399400FF08DB /* BaseTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTabBarController.h; sourceTree = "<group>"; };
+		90459D221D7F399400FF08DB /* BaseTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseTabBarController.m; sourceTree = "<group>"; };
+		90459D241D7F3E6300FF08DB /* tab-ico-shouye-nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-ico-shouye-nor@3x.png"; sourceTree = "<group>"; };
+		90459D261D7F3E6F00FF08DB /* tab-ico-wo-nor@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-ico-wo-nor@3x.png"; sourceTree = "<group>"; };
+		90459D281D7F410C00FF08DB /* home_bottom_tab_arrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "home_bottom_tab_arrow@2x.png"; sourceTree = "<group>"; };
+		90459D2A1D7F416200FF08DB /* tab-ico-wo-clicked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-ico-wo-clicked@3x.png"; sourceTree = "<group>"; };
+		90459D2C1D7F416D00FF08DB /* tab-ico-shouye-clicked@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "tab-ico-shouye-clicked@3x.png"; sourceTree = "<group>"; };
+		90459D2E1D7F476900FF08DB /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		90459D2F1D7F476900FF08DB /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		90459D311D7F49B900FF08DB /* holder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = holder.png; sourceTree = "<group>"; };
+		90459D341D7F58EB00FF08DB /* placeholder.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = placeholder.png; sourceTree = "<group>"; };
+		90459D351D7F58EB00FF08DB /* XRCarouselView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XRCarouselView.h; sourceTree = "<group>"; };
+		90459D361D7F58EB00FF08DB /* XRCarouselView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XRCarouselView.m; sourceTree = "<group>"; };
+		90459D391D7F5F7500FF08DB /* BigPicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigPicViewController.h; sourceTree = "<group>"; };
+		90459D3A1D7F5F7500FF08DB /* BigPicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigPicViewController.m; sourceTree = "<group>"; };
+		90459D3D1D7F74DD00FF08DB /* wp_nav_back_white.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = wp_nav_back_white.png; sourceTree = "<group>"; };
+		90459D3F1D7F766C00FF08DB /* img_detail_share_up@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_detail_share_up@3x.png"; sourceTree = "<group>"; };
+		90459D451D7F7D4900FF08DB /* img_detail_look@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_detail_look@2x.png"; sourceTree = "<group>"; };
+		90459D471D7F7DF900FF08DB /* img_list_aixin.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = img_list_aixin.png; sourceTree = "<group>"; };
+		90459D491D7F7E6000FF08DB /* img_detail_download@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "img_detail_download@3x.png"; sourceTree = "<group>"; };
+		BF7899828241B77DCDB297FF /* Pods-EGG.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGG.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EGG/Pods-EGG.debug.xcconfig"; sourceTree = "<group>"; };
+		DFD991B67A61A364DD4D043B /* Pods-EGG.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EGG.release.xcconfig"; path = "Pods/Target Support Files/Pods-EGG/Pods-EGG.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5157FACFB4D07166B807D35D /* libPods-EGG.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +129,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		53EB51782AD22909D99FC8AD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3355C1B850AB7BEDBF6AEF00 /* libPods-EGG.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6DC9FAF77D3DDE8759E9BDD3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				BF7899828241B77DCDB297FF /* Pods-EGG.debug.xcconfig */,
+				DFD991B67A61A364DD4D043B /* Pods-EGG.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		90459CCD1D7F1CCA00FF08DB = {
 			isa = PBXGroup;
 			children = (
+				90459D101D7F1EFF00FF08DB /* icon.png */,
 				90459CD81D7F1CCA00FF08DB /* EGG */,
 				90459CF21D7F1CCA00FF08DB /* EGGTests */,
 				90459CFD1D7F1CCA00FF08DB /* EGGUITests */,
 				90459CD71D7F1CCA00FF08DB /* Products */,
+				6DC9FAF77D3DDE8759E9BDD3 /* Pods */,
+				53EB51782AD22909D99FC8AD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +172,12 @@
 		90459CD81D7F1CCA00FF08DB /* EGG */ = {
 			isa = PBXGroup;
 			children = (
+				90459D1F1D7F35CF00FF08DB /* PrefixHeader.pch */,
 				90459CDC1D7F1CCA00FF08DB /* AppDelegate.h */,
 				90459CDD1D7F1CCA00FF08DB /* AppDelegate.m */,
-				90459CDF1D7F1CCA00FF08DB /* ViewController.h */,
-				90459CE01D7F1CCA00FF08DB /* ViewController.m */,
+				90459D201D7F392000FF08DB /* BASE */,
+				90459D131D7F353D00FF08DB /* USER */,
+				90459D121D7F353100FF08DB /* HOME */,
 				90459CE21D7F1CCA00FF08DB /* Main.storyboard */,
 				90459CE51D7F1CCA00FF08DB /* Assets.xcassets */,
 				90459CE71D7F1CCA00FF08DB /* LaunchScreen.storyboard */,
@@ -117,6 +190,17 @@
 		90459CD91D7F1CCA00FF08DB /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				90459D491D7F7E6000FF08DB /* img_detail_download@3x.png */,
+				90459D471D7F7DF900FF08DB /* img_list_aixin.png */,
+				90459D451D7F7D4900FF08DB /* img_detail_look@2x.png */,
+				90459D3F1D7F766C00FF08DB /* img_detail_share_up@3x.png */,
+				90459D3D1D7F74DD00FF08DB /* wp_nav_back_white.png */,
+				90459D311D7F49B900FF08DB /* holder.png */,
+				90459D241D7F3E6300FF08DB /* tab-ico-shouye-nor@3x.png */,
+				90459D261D7F3E6F00FF08DB /* tab-ico-wo-nor@3x.png */,
+				90459D281D7F410C00FF08DB /* home_bottom_tab_arrow@2x.png */,
+				90459D2A1D7F416200FF08DB /* tab-ico-wo-clicked@3x.png */,
+				90459D2C1D7F416D00FF08DB /* tab-ico-shouye-clicked@3x.png */,
 				90459CDA1D7F1CCA00FF08DB /* main.m */,
 			);
 			name = "Supporting Files";
@@ -140,6 +224,58 @@
 			path = EGGUITests;
 			sourceTree = "<group>";
 		};
+		90459D121D7F353100FF08DB /* HOME */ = {
+			isa = PBXGroup;
+			children = (
+				90459D191D7F358700FF08DB /* HomeViewController.h */,
+				90459D1A1D7F358700FF08DB /* HomeViewController.m */,
+				90459D1B1D7F358700FF08DB /* HomeViewController.xib */,
+				90459D2E1D7F476900FF08DB /* CollectionViewCell.h */,
+				90459D2F1D7F476900FF08DB /* CollectionViewCell.m */,
+				90459D3C1D7F5F8100FF08DB /* BigPicture */,
+			);
+			name = HOME;
+			sourceTree = "<group>";
+		};
+		90459D131D7F353D00FF08DB /* USER */ = {
+			isa = PBXGroup;
+			children = (
+				90459D141D7F357700FF08DB /* UserViewController.h */,
+				90459D151D7F357700FF08DB /* UserViewController.m */,
+				90459D161D7F357700FF08DB /* UserViewController.xib */,
+			);
+			name = USER;
+			sourceTree = "<group>";
+		};
+		90459D201D7F392000FF08DB /* BASE */ = {
+			isa = PBXGroup;
+			children = (
+				90459D331D7F58EB00FF08DB /* XRCarouselView */,
+				90459D211D7F399400FF08DB /* BaseTabBarController.h */,
+				90459D221D7F399400FF08DB /* BaseTabBarController.m */,
+			);
+			name = BASE;
+			sourceTree = "<group>";
+		};
+		90459D331D7F58EB00FF08DB /* XRCarouselView */ = {
+			isa = PBXGroup;
+			children = (
+				90459D341D7F58EB00FF08DB /* placeholder.png */,
+				90459D351D7F58EB00FF08DB /* XRCarouselView.h */,
+				90459D361D7F58EB00FF08DB /* XRCarouselView.m */,
+			);
+			path = XRCarouselView;
+			sourceTree = "<group>";
+		};
+		90459D3C1D7F5F8100FF08DB /* BigPicture */ = {
+			isa = PBXGroup;
+			children = (
+				90459D391D7F5F7500FF08DB /* BigPicViewController.h */,
+				90459D3A1D7F5F7500FF08DB /* BigPicViewController.m */,
+			);
+			name = BigPicture;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +283,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90459D031D7F1CCA00FF08DB /* Build configuration list for PBXNativeTarget "EGG" */;
 			buildPhases = (
+				6AF0670D91B15271C256239B /* [CP] Check Pods Manifest.lock */,
 				90459CD21D7F1CCA00FF08DB /* Sources */,
 				90459CD31D7F1CCA00FF08DB /* Frameworks */,
 				90459CD41D7F1CCA00FF08DB /* Resources */,
+				AB95B69CCDD9CB3ADAE4E0DC /* [CP] Embed Pods Frameworks */,
+				0AEB486050354FFB4BDDE00B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -247,8 +386,23 @@
 			buildActionMask = 2147483647;
 			files = (
 				90459CE91D7F1CCA00FF08DB /* LaunchScreen.storyboard in Resources */,
+				90459D2B1D7F416200FF08DB /* tab-ico-wo-clicked@3x.png in Resources */,
+				90459D291D7F410C00FF08DB /* home_bottom_tab_arrow@2x.png in Resources */,
+				90459D371D7F58EB00FF08DB /* placeholder.png in Resources */,
+				90459D321D7F49B900FF08DB /* holder.png in Resources */,
+				90459D271D7F3E6F00FF08DB /* tab-ico-wo-nor@3x.png in Resources */,
+				90459D181D7F357700FF08DB /* UserViewController.xib in Resources */,
+				90459D461D7F7D4900FF08DB /* img_detail_look@2x.png in Resources */,
+				90459D3E1D7F74DD00FF08DB /* wp_nav_back_white.png in Resources */,
+				90459D251D7F3E6300FF08DB /* tab-ico-shouye-nor@3x.png in Resources */,
+				90459D401D7F766C00FF08DB /* img_detail_share_up@3x.png in Resources */,
 				90459CE61D7F1CCA00FF08DB /* Assets.xcassets in Resources */,
+				90459D481D7F7DF900FF08DB /* img_list_aixin.png in Resources */,
+				90459D2D1D7F416D00FF08DB /* tab-ico-shouye-clicked@3x.png in Resources */,
 				90459CE41D7F1CCA00FF08DB /* Main.storyboard in Resources */,
+				90459D111D7F1EFF00FF08DB /* icon.png in Resources */,
+				90459D4A1D7F7E6000FF08DB /* img_detail_download@3x.png in Resources */,
+				90459D1D1D7F358700FF08DB /* HomeViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,14 +422,67 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0AEB486050354FFB4BDDE00B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGG/Pods-EGG-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AF0670D91B15271C256239B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		AB95B69CCDD9CB3ADAE4E0DC /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-EGG/Pods-EGG-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		90459CD21D7F1CCA00FF08DB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90459CE11D7F1CCA00FF08DB /* ViewController.m in Sources */,
+				90459D301D7F476900FF08DB /* CollectionViewCell.m in Sources */,
+				90459D231D7F399400FF08DB /* BaseTabBarController.m in Sources */,
+				90459D171D7F357700FF08DB /* UserViewController.m in Sources */,
 				90459CDE1D7F1CCA00FF08DB /* AppDelegate.m in Sources */,
+				90459D381D7F58EB00FF08DB /* XRCarouselView.m in Sources */,
 				90459CDB1D7F1CCA00FF08DB /* main.m in Sources */,
+				90459D3B1D7F5F7500FF08DB /* BigPicViewController.m in Sources */,
+				90459D1C1D7F358700FF08DB /* HomeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,8 +623,11 @@
 		};
 		90459D041D7F1CCA00FF08DB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = BF7899828241B77DCDB297FF /* Pods-EGG.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EGG/PrefixHeader.pch";
 				INFOPLIST_FILE = EGG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ybb.Inc.EGG;
@@ -427,8 +637,11 @@
 		};
 		90459D051D7F1CCA00FF08DB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD991B67A61A364DD4D043B /* Pods-EGG.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/EGG/PrefixHeader.pch";
 				INFOPLIST_FILE = EGG/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = ybb.Inc.EGG;
@@ -501,6 +714,7 @@
 				90459D051D7F1CCA00FF08DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90459D061D7F1CCA00FF08DB /* Build configuration list for PBXNativeTarget "EGGTests" */ = {
 			isa = XCConfigurationList;
@@ -509,6 +723,7 @@
 				90459D081D7F1CCA00FF08DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90459D091D7F1CCA00FF08DB /* Build configuration list for PBXNativeTarget "EGGUITests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +732,7 @@
 				90459D0B1D7F1CCA00FF08DB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
