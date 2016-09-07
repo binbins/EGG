@@ -8,8 +8,10 @@
 
 #import "AppDelegate.h"
 #import "BaseTabBarController.h"
-#import "UserViewController.h"
-#import "HomeViewController.h"
+//#import "UserViewController.h"
+//#import "HomeViewController.h"
+
+#import <AVOSCloud/AVOSCloud.h>
 
 @interface AppDelegate ()
 
@@ -26,6 +28,10 @@
     
     [self setRootView];
     
+    // 如果使用美国站点，请加上下面这行代码：
+    
+    [AVOSCloud setApplicationId:@"hOQEaXseUuaKttCP6fP3xOPj-gzGzoHsz" clientKey:@"jbr6XtWUNnTdTcJRYOkaDAsd"];
+
     return YES;
 }
 
@@ -33,7 +39,7 @@
     
     NSMutableArray *vcs = [[NSMutableArray alloc]init];
     NSArray *iconNames = @[@"tab-ico-shouye-clicked@3x", @"tab-ico-wo-clicked@3x"];
-    NSArray *classNames = @[@"HomeViewController", @"UserViewController"];
+    NSArray *classNames = @[@"HomeViewController", @"LeftDrawerViewController"];
     for (int i = 0; i<iconNames.count; i++) {
         UIViewController *vc = [[NSClassFromString(classNames[i]) alloc]init];
         vc.tabBarItem.image = [UIImage imageNamed:iconNames[i]];
